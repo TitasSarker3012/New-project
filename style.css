@@ -306,3 +306,45 @@ ul li a{
     background:#0284c7;
 }
 
+
+/* Footer */
+
+.footer{
+    background-color:#8b8b8b;
+    color:white;
+    padding:30px 80px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.footer-logo h2{
+    font-size:28px;
+}
+
+.social-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+}
+
+.social-links a:hover{
+    color:#1eb1fa;
+}
+
+hr{
+    margin:25px 0;
+    border:none;
+    border-top:1px solid rgb(200, 196, 196);
+}
+
+.footer-bottom{
+    text-align:center;
+    font-size:16px;
+}
+
