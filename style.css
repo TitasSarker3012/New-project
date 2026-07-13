@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button{
+    background-color: rgb(64, 86, 233);
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px 20px; 
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    padding: 10px 0;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    gap: 20px;
+    align-items: center;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #524e4e;
+    font-size: 15px;
+
+}
+
+.ber{
+    display: flex;
+    gap: 30px;
+}
+/* navber close */
+
+/* start banner work */
+
+.benner-section img{
+    height: 760px;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+}
+
+.benner-text{
+    position: absolute;
+    top: 240px;
+    left: 360px;
+    color: white;
+    text-align: center;
+}
+
+.benner-text h1{
+    font-size: 75px;
+}
+
+.benner-text p{
+    font-size: 25px;
+}
+.benner-button button{
+    position: absolute;
+    top: 700px;
+    left: 670px;
+    text-align: center;
+    background-color: rgb(64, 86, 233);
+    padding: 20px 44px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* close banner */
+
+
+/* start employee section */
+
+.employee-section {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.employee-section h1{
+    font-size: 60px;
+    border-top: 20px;
+}
+
+.employee-identity{
+    margin-top: 40px;
+    display: grid;
+    justify-content: space-between;
+    gap: 18px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 38px 38px;
+    margin-left: 100px;
+}
+
+.employee-identity .ei-photo {
+    border: 1px solid rgb(213, 210, 210);
+    border-radius: 10px; 
+}
+
+.employee-identity .ei-photo .header{
+    margin: 12px 18px; 
+    text-align: left; 
+}
+
+.employee-identity .ei-photo h5 {
+    color: #4d31d5;
+    font-size: 11px;
+}
+
+.employee-identity .ei-photo p {
+    color: #88878c;
+}
+
+/* close */
