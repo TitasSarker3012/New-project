@@ -136,3 +136,117 @@ ul li a{
 }
 
 /* close */
+
+
+/* start secure-items */
+
+
+
+.parent-section {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.parent-section h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.parent-section p{
+    color: #88878c;
+     margin-bottom: 70px;   
+}
+
+.next h6{
+    color: #88878c;
+     margin-bottom: 20px;
+     font-size: 13px;
+}
+
+.next-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+
+.next-container .next{
+    border: 1px solid rgb(218, 215, 213);
+    padding: 18px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.next-container .next h2{
+    margin: 10px 0;
+}
+
+.next-container .next p {
+    color: #757575;
+    font-size: 15px;
+
+}
+
+.next ul{
+    display: block;
+}
+
+.next ul li{
+    margin:15px 0;
+    position:relative;
+    padding-left:30px;
+    height: 20px;
+    display: list-item;
+    width: 310px;
+    color: #444345;
+}
+
+
+.next ul li::before{
+
+    content:"•";
+    color:#2962ff;
+    position:absolute;
+    left:0;
+}
+
+.next .common-btn-1{
+    border: 1px solid blue;
+    border-radius: 6px;
+    padding: 13px 125px;
+    margin-top: 45px 20px; 
+    font-size: 15px;
+    color: #2962ff;
+    margin-bottom: 28px;
+    cursor: pointer;
+
+}
+
+.next .common-btn-2{
+    border: 1px solid blue;
+    border-radius: 6px;
+    padding: 13px 145px;
+    margin-top: 45px 20px; 
+    font-size: 15px;
+    color: white;
+    margin-bottom: 28px;
+    background-color: #2962ff;
+    cursor: pointer;
+
+}
+
+.next .common-btn-3{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 13px 135px;
+    margin-top: 45px 20px; 
+    font-size: 15px;
+    margin-bottom: 28px;
+    cursor: pointer;
+}
+
+.next .text li{
+    color: rgb(214, 215, 216);
+}
+/* close */
